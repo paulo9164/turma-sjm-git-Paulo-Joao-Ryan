@@ -3,3 +3,7 @@ body {
     background-color: #f4f6f8;
     color: #333;
 }
+header {
+    background-color: #0d1b2a;
+    padding: 15px 0;
+}
