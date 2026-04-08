@@ -5,3 +5,8 @@ function adicionarContacto() {
 
     if (nome && telefone) {
         let lista = document.getElementById("lista");
+
+        let novo = document.createElement("div");
+        novo.classList.add("contacto");
+
+
