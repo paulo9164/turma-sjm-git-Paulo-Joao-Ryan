@@ -9,4 +9,10 @@ function adicionarContacto() {
         let novo = document.createElement("div");
         novo.classList.add("contacto");
 
+         novo.innerHTML = `
+            <p><strong>Nome:</strong> ${nome}</p>
+            <p><strong>Telefone:</strong> ${telefone}</p>
+        `;
+
+
 
