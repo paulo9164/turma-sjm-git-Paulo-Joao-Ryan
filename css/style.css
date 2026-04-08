@@ -78,3 +78,59 @@ main p {
     max-width: 600px;
     color: #cbd5f5;
 }
+
+/* CONTAINER CONTACTOS */
+.contactos-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+/* CARD CONTACTOS */
+.contacto-box {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    border-radius: 20px;
+    width: 350px;
+    backdrop-filter: blur(10px);
+    text-align: left;
+    transition: 0.3s;
+}
+
+.contacto-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* LINHAS DE CONTACTO */
+.contacto-item {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #cbd5f5;
+}
+
+/* LABEL (tipo Email:) */
+.contacto-item strong {
+    color: #38bdf8;
+}
+
+/* BOTÕES */
+.contactos-botoes {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.contacto-btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 25px;
+    border-radius: 25px;
+    background: linear-gradient(90deg, #38bdf8, #6366f1);
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.contacto-btn:hover {
+    transform: scale(1.05);
+}
