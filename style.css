@@ -7,6 +7,7 @@
 body {
     background: linear-gradient(135deg, #0f172a, #1e293b);
     color: #e2e8f0;
+    text-align: center;
 }
 
 h1 {
@@ -23,7 +24,7 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 65vh;
 }
 
 nav {
@@ -37,4 +38,15 @@ p {
     font-family: Roboto Condensed;
     font-size: 15px;
     color: #eaf2fc;
+}
+
+a {
+    text-decoration: none;
+    color: #e2e8f0;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    margin-top: 20px;
+    background: linear-gradient(90deg, #38bdf8, #0004ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
