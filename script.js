@@ -14,5 +14,11 @@ function adicionarContacto() {
             <p><strong>Telefone:</strong> ${telefone}</p>
         `;
 
+        lista.appendChild(novo);
+    }
+}
+
+</script>
+
 
 
